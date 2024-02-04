@@ -59,14 +59,13 @@ def plot_distrb(df):
 
     fig, ax = plt.subplots(plot_rows, plot_rows, figsize=(20, 20))
 
-    for i in product(range(plot_rows), range(plot_rows)):
+    axs = list(product(range(plot_rows), range(plot_rows)))
+    
+    for i in range(df.shape[1]):
 
-        idx = (i[0]+1) * (i[1]+1)
-        if idx >= df.shape[1]:
-            break
-
-        col = df.iloc[:, idx]
+        col = df.iloc[:, i]
         if col.dtype == 'object':
-            sns.countplot(col, ax=ax[i])
+            sns.countplot(col, ax=ax[*axs[i]])
         else:
-            sns.histplot(col, ax=ax[i])
+            sns.histplot(col, ax=ax[*axs[i]])
+        
