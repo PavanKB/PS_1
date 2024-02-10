@@ -33,6 +33,8 @@ both False Negatives and False Positives are equally important then we use F1-Sc
 
 1. Gridsearch tuning  - to find best tree
 
+DEciosn tree wont work for imbalanced dataset
+
 ## Hyperparameter tuning
 Atleast 2 for each algorithm
 - DT: Pruning, which attribute did you choose to split on?
@@ -80,3 +82,7 @@ https://stackoverflow.com/questions/37161563/how-to-graph-grid-scores-from-grids
 https://scikit-learn.org/stable/auto_examples/model_selection/plot_learning_curve.html
 
 https://scikit-learn.org/stable/auto_examples/model_selection/plot_grid_search_digits.html
+
+https://machinelearningmastery.com/tour-of-evaluation-metrics-for-imbalanced-classification/
+
+https://medium.com/cuenex/advanced-evaluation-metrics-for-imbalanced-classification-models-ee6f248c90ca
