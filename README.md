@@ -90,3 +90,5 @@ https://medium.com/cuenex/advanced-evaluation-metrics-for-imbalanced-classificat
 https://seaborn.pydata.org/tutorial/relational.html
 
 https://www.analyticsvidhya.com/blog/2021/07/using-seaborns-facetgrid-based-methods-for-exploratory-data-analysis/
+
+https://www.analyticsvidhya.com/blog/2016/02/complete-guide-parameter-tuning-gradient-boosting-gbm-python/
