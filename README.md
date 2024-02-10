@@ -23,7 +23,7 @@ To be done on full data
 # Data prep
 1. Drop empty - no imputation here
 2. One hot encoding
-3. Standardisation - MinMaxScaler - why?
+3. Standardisation - MinMaxScaler - # Use minmax scalerr for simplicity, scalability, avoids assumption of distribution and there are no outliers in data
 
 # Training
 
@@ -86,3 +86,7 @@ https://scikit-learn.org/stable/auto_examples/model_selection/plot_grid_search_d
 https://machinelearningmastery.com/tour-of-evaluation-metrics-for-imbalanced-classification/
 
 https://medium.com/cuenex/advanced-evaluation-metrics-for-imbalanced-classification-models-ee6f248c90ca
+
+https://seaborn.pydata.org/tutorial/relational.html
+
+https://www.analyticsvidhya.com/blog/2021/07/using-seaborns-facetgrid-based-methods-for-exploratory-data-analysis/

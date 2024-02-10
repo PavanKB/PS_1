@@ -88,7 +88,7 @@ def plot_distrb(df):
     for i in range(df.shape[1]):
 
         col = df.iloc[:, i]
-        print(axs[i])
+
         if col.dtype == 'object':
             sns.countplot(col, ax=ax[*axs[i]])
         else:
