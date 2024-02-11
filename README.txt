@@ -5,7 +5,9 @@
 2. Activate the new environment   `activate ml`
 3. Install the packages from requirements.txt `pip install -r requirements.txt`
 4. Register the env with jupyter - `python -m ipykernel install --user --name=ml`
-5. Access the project folder from dropbox link and save locally - https://gatech.box.com/s/jbuy8kwy59chep9ggxam36bkib0v5u23
+5. Access the project folder from dropbox link and save locally , or clone from git
+  - https://gatech.box.com/s/jbuy8kwy59chep9ggxam36bkib0v5u23
+  - https://github.com/PavanKB/PS_1
 
 # DATA
 1. The datasets required for the project will be downloaded directly from UCI Machine Learning repo
@@ -30,6 +32,9 @@
 
 * knn_census_income.ipynb
 * knn_dry_bean.ipynb
+
+* nn_census_income.ipynb
+* nn_dry_bean.ipynb
 
 * svm_census_income.ipynb
 * svm_dry_bean.ipynb
